@@ -1,0 +1,241 @@
+*{
+    margin:0px;
+	padding:0px;
+    font-family: 'Outfit', sans-serif;
+    color:rgb(255, 255, 255);
+}
+#container{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+}
+nav{
+    width: auto;
+    height: 60px;
+    border-bottom: 1px solid black;
+    background-color: black;
+}
+nav p{
+    float: left;
+    padding: 25px 0px 0px 40px;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 24px;
+    letter-spacing: 4px;
+    word-spacing: 7px;
+}
+nav ul li{
+	float: right;
+	display:inline-block;
+	font-weight:bold;
+	width:150px;
+	text-align:center;
+	font-size: 14px;
+	letter-spacing: 7px;
+	padding-top:25px;
+	padding-bottom:10px;
+}
+nav ul li:hover{
+	background-color:#000000;
+	cursor:pointer;
+    margin-top: 5px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul{
+    float: right;
+}
+#sec1{
+    width: auto;
+    height: 700px;
+    border-bottom: 1px solid black;
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#sec1 h1{
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'Arizonia', cursive;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-weight: lighter;
+}
+#sec1 p{
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	letter-spacing:3px;
+	word-spacing:3px;
+	margin-top:450px;
+	margin-left:740px;
+	width:400px;
+	border:1px solid white;	
+	padding:20px 15px 20px 15px;
+	
+}
+#sec1 p:hover{
+	background-color:#837E7C;
+	cursor:pointer;
+	border-width:30px;
+	border:1px solid white;		
+}
+#sec1 p a{
+    text-decoration: none;
+}
+#sec2{
+    width: auto;
+    height: 600px;
+    border-bottom: 1px solid black;
+    display: flex;
+    background-color: black;
+}
+#image{
+    width: 60%;
+    height: 600px;
+    border-right: 1px solid black;
+}
+#image img{
+    width: 80%;
+    height: 400px;
+    margin: 95px 0px 30px 189px;
+}
+#txt{
+    width: 40%;
+    height: 600px;
+
+}
+#txt p{
+    height: 400px;
+    float: right;
+    color: rgb(255, 255, 255);
+    margin: 95px 20px 30px 0px;
+    padding-top:40px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+#sec3{
+    width: 100%;
+    height: 600px;
+    border-bottom: 1px solid black;
+    display: flex;
+    background-color: black;
+}
+#sec3 img{
+    width: 33.3%;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 90px; 
+}
+#img1 img {
+    width: 80%;
+    height: 400px;
+}
+#img2 img{
+    width: 80%;
+    height: 400px;
+}
+#img3 img{
+    width: 80%;
+    height: 400px;
+}
+#sec4{
+    width: 100%;
+    height: 600px;
+    border-bottom: 1px solid black;
+    display: flex;
+    background-color: black;
+}
+#photo{
+    width: 50%;
+    height: 600px;
+    border-right: 1px solid black;
+    
+}
+#photo img{
+    width: 80%;
+    height: 400px;
+    margin-top: 70px;
+    float: left;
+    
+}
+#txt1{
+    width: 50%;
+    height: 600px;
+}
+#txt1 p{
+    width: 80%;
+    height: 400px;
+    float: right;
+    color: rgb(255, 255, 255);
+    margin: 140px 70px 0px 100px;
+    text-align: left;
+    font-size: 20px;
+}
+#sec5{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    display: flex;
+}
+#sec5 article{
+    width: 33.3%;
+    height: 400px;
+}
+#sec5 p{
+    padding-bottom: 120px;
+    font-size: 35px;
+    padding-right: 45px;
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+#sec5 img{
+    width:60%;
+    height: 600px;
+    margin-left: 110px;
+}
+#sec6{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: black;
+}
+#sec6 article{
+    width: 50%;
+    height: 300px;
+}
+#sec6 p{
+    text-align: left;
+    margin-left: 100px;
+}
+#left p{
+    font-size: 15px;
+    
+}
+#right p{
+    text-align: left;
+    font-size: 20px;
+    padding-right: 100px;
+}
+footer{
+    width: auto;
+    height: 60px;
+    border-bottom: 1px solid black;
+    background-color: black;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-size: 20px;
+}
+footer p{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+footer a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
